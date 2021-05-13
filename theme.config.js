@@ -1,6 +1,9 @@
 export default {
-  repository: 'https://github.com/kobra-dev/docs',
+  repository: 'https://github.com/kobra-dev/Kobra',
+  docsRepository: 'https://github.com/kobra-dev/docs',
   titleSuffix: ' – Kobra Docs',
+  branch: 'master',
+  path: '/',
   logo: (
     <>
       <span className="mr-2 font-extrabold hidden md:inline">Kobra</span>
@@ -71,6 +74,7 @@ export default {
       <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
     </>
   ),
+  UNSTABLE_stork: true,
   search: true,
   prevLinks: true,
   nextLinks: true,
