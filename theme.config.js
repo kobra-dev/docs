@@ -1,5 +1,5 @@
 export default {
-  repository: 'https://github.com/kobra-dev/docs-nextra',
+  repository: 'https://github.com/kobra-dev/docs',
   titleSuffix: ' – Kobra Docs',
   logo: (
     <>
@@ -15,12 +15,30 @@ export default {
       <meta name="theme-color" content="#ffffff" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta httpEquiv="Content-Language" content="en" />
-      <meta name="description" content="Kobra documentation" />
-      <meta name="og:description" content="Kobra documentation" />
-      <meta name="twitter:site:domain" content="docs.kobra.dev" />
-      <meta name="twitter:url" content="https://docs.kobra.dev" />
-      <meta name="og:title" content="Kobra Docs" />
-      <meta name="apple-mobile-web-app-title" content="Kobra Docs" />
+      <meta
+        name="description"
+        content="The Visual programming language for Machine  Learing"
+      />
+      <meta
+        name="og:description"
+        content="The Visual programming language for Machine  Learing"
+      />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta
+        name="twitter:image"
+        content="https://raw.githubusercontent.com/kobra-dev/branding/main/embed_image.png"
+      />
+      <meta name="twitter:site:domain" content="https://kobra.dev/" />
+      <meta name="twitter:url" content="https://kobra.dev/" />
+      <meta
+        name="og:title"
+        content="The Visual programming language for Machine  Learing"
+      />
+      <meta
+        name="og:image"
+        content="https://raw.githubusercontent.com/kobra-dev/branding/main/embed_image.png"
+      />
+      <meta name="apple-mobile-web-app-title" content="Nextra" />{' '}
       <link
         rel="apple-touch-icon"
         sizes="180x180"
@@ -36,19 +54,19 @@ export default {
         rel="icon"
         type="image/png"
         sizes="32x32"
-        href="/favicon-32x32.png"
+        href="https://raw.githubusercontent.com/kobra-dev/branding/main/favicon.ico"
       />
       <link
         rel="icon"
         type="image/png"
         sizes="96x96"
-        href="/favicon-96x96.png"
+        href="https://raw.githubusercontent.com/kobra-dev/branding/main/favicon.ico"
       />
       <link
         rel="icon"
         type="image/png"
         sizes="16x16"
-        href="/favicon-16x16.png"
+        href="https://raw.githubusercontent.com/kobra-dev/branding/main/favicon.ico"
       />
       <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
     </>
