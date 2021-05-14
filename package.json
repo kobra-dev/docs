@@ -1,20 +1,20 @@
 {
-  "name": "nextra",
+  "name": "docs",
   "version": "1.0.0",
-  "description": "",
+  "description": "The Visual Programming language for Machine learning",
   "main": "index.js",
   "scripts": {
     "dev": "next",
     "start": "next start",
     "build": "next build"
   },
-  "author": "Shu Ding",
+  "author": "The Kobra Authors",
   "license": "MIT",
   "dependencies": {
-    "next": "^10.0.8-canary.9",
+    "next": "^10.0.2",
     "nextra": "^0.4.1",
     "nextra-theme-docs": "^1.1.2",
-    "react": "^17.0.1",
+    "react": "17.0.2",
     "react-dom": "^17.0.1"
   },
   "devDependencies": {
