@@ -1,0 +1,3 @@
+# Your projects
+
+The ["Your projects" page](https://studio.kobra.dev) displays all of your projects that you have created, as well as a button to create a new project. To edit a project in Kobra Studio, click the edit icon in the upper left corner of the corresponding project tile. To view the project page, copy the link to the project page, or delete the project, click the "three dots" menu icon at the top of the project tile, then click the corresponding menu option.
