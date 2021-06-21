@@ -1,81 +1,11 @@
-import Image from 'next/image'
-import Bleed from 'nextra-theme-docs/bleed'
+import Callout from 'nextra-theme-docs/callout'
 
-# Kobra Onboarding
+# Welcome
 
-Hey! Welcome to Kobra! We're so happy that you're trying it out, and we'd love your feedback! Here are some basic instructions for how to get started with Kobra – we realy hope you won't have to use these instructions, but when you do, please take a note of it so we'll know which parts of the experience aren't intuitive
+Welcome to the Kobra docs!
 
-Do not open the specific steps unless you're stuck
-
-Here are the basic steps to creating a Kobra program (we're going to be creating a Simple Linear Regression):
-
-1. Upload dataset
-
-    Download dataset [here](https://raw.githubusercontent.com/kobra-dev/datasets/main/Salary_Data.csv)
-
-    - Upload the file
-
-        In the top right, go to the file upload tab and upload your dataset. If this isn't intuitive, please make a note of it
-
-    - Load in the dataset
-
-        Go to the variables tab and create a variable for data
-
-        ![/Screen_Shot_2021-05-11_at_2.06.46_PM.png](/Screen_Shot_2021-05-11_at_2.06.46_PM.png)
-
-        Set the data variable to a new dataframe – make the filename the same as the dataset you uploaded (the String block is in the text tab)
-
-        ![/Screen_Shot_2021-05-11_at_2.07.30_PM.png](/Screen_Shot_2021-05-11_at_2.07.30_PM.png)
-
-2. Create X and y variables
-    - Create variables for X and y
-
-        Go to the variables tab and create a variable for X and y
-
-    - Set each variable to one column of the dataframe
-
-        Drag out the "Get column" block from the dataframes tab
-
-        ![/Screen_Shot_2021-05-11_at_2.11.07_PM.png](/Screen_Shot_2021-05-11_at_2.11.07_PM.png)
-
-3. Create scatterplot
-    - Add a scatterplot to the plot
-    
-        Get this blocks from the plots tab, and add it to your program
-
-        ![/Screen_Shot_2021-05-11_at_2.12.02_PM.png](/Screen_Shot_2021-05-11_at_2.12.02_PM.png)
-
-4. Click the run button to view your scatterplot (in data visualization tab)
-5. Create & Train Linear Regression Model
-    - Create a variable for your linear regression model
-
-        Go to the variables tab, and create a variable for a model
-
-    - Set it to a linear regression model
-
-        Drag out the linear regression model from the Linear Regression tab and set model to it
-
-        ![/Screen_Shot_2021-05-11_at_2.18.47_PM.png](/Screen_Shot_2021-05-11_at_2.18.47_PM.png)
-
-    - Fit the linear regression model
-
-        Drag out the `fit linear regression model` block and fit the model variable
-
-        ![/Screen_Shot_2021-05-11_at_2.25.11_PM.png](/Screen_Shot_2021-05-11_at_2.25.11_PM.png)
-
-6. Make prediction with linear regression
-    - Make a prediction and print it out
-
-        Drag out the print block from the text category, and then use the create text block to combine a string saying "Prediction (5 yrs experience)" and your predction
-
-        ![/Screen_Shot_2021-05-11_at_2.30.25_PM.png](/Screen_Shot_2021-05-11_at_2.30.25_PM.png)
-
-        Add in a prediction block, where you're making a prediction with your linear regression model (in linear regression tab)
-
-        ![/Screen_Shot_2021-05-11_at_2.31.22_PM.png](/Screen_Shot_2021-05-11_at_2.31.22_PM.png)
-
- Full program
-
-- Full program
-
-    ![/Screen_Shot_2021-05-11_at_2.32.15_PM.png](/Screen_Shot_2021-05-11_at_2.32.15_PM.png)
+<Callout emoji="❗">
+  These docs are still a work-in-progress. Submit feedback on our [GitHub
+  repo](https://github.com/kobra-dev/docs) or reach out to us directly
+  ([support@kobra.dev](mailto:support@kobra.dev)) if you have any questions.
+</Callout>

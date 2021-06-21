@@ -6,7 +6,17 @@ export default {
   path: '/',
   logo: (
     <>
-      <span className="mr-2 font-extrabold hidden md:inline">Kobra</span>
+      <img
+        src="https://images.ctfassets.net/toxox86i0ilk/2vq3YtIZopT8UPfaEvzp9g/1bba1b1929fca469aaf554b6a3216310/GreenIconBlackText.svg"
+        alt="Kobra logo"
+        style={{
+          maxHeight: '2rem',
+          marginRight: '1rem',
+          backgroundColor: 'white',
+          padding: '4px',
+          borderRadius: '3px',
+        }}
+      />
       <span className="text-gray-600 font-normal hidden md:inline">
         Documentation
       </span>
