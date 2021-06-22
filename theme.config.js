@@ -30,11 +30,11 @@ export default {
       <meta httpEquiv="Content-Language" content="en" />
       <meta
         name="description"
-        content="The Visual programming language for Machine  Learing"
+        content="The visual programming language for machine learning"
       />
       <meta
         name="og:description"
-        content="The Visual programming language for Machine  Learing"
+        content="The visual programming language for machine learning"
       />
       <meta name="twitter:card" content="summary_large_image" />
       <meta
@@ -45,7 +45,7 @@ export default {
       <meta name="twitter:url" content="https://kobra.dev/" />
       <meta
         name="og:title"
-        content="The Visual programming language for Machine  Learing"
+        content="Kobra Docs"
       />
       <meta
         name="og:image"
