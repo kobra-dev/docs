@@ -1,17 +1,54 @@
+import Callout from 'nextra-theme-docs/callout';
+
 # DataFrames
 
 A *DataFrame* is essentially a container for a dataset. It keeps track of all of the different columns and lets you do actions on them like swapping rows and columns.
 
-## Matrix
+![Screenshot of blocks in DataFrames category](/dataframes-blocks.png)
+
+## Uploaded datasets
+
+At the top of the DataFrames category is a section for uploaded datasets. This holds all of the blocks you can use to access your uploaded datasets. To learn more about uploading datasets, see our page on [dataset uploads](/feature-overview/dataset-uploads).
+
+## Get column from DataFrame as array
+
+This block is used to get a column from a DataFrame as a list (also called an array). This lets you use the column in other blocks, like machine learning models or plots.
 
 ## Empty DataFrame
 
+This block is used to create an empty DataFrame. Right now this is not very useful, we may add a use for it in the future.
+
 ## DataFrame with headers and data
+
+This block is used to create a DataFrame with predefined data. You can specify headers as a list of strings, where each string is one column name, and the data is a 2D array (a matrix).
+
+<Callout emoji="💡">
+    A matrix block has a size limit of 10 by 10. If your dataset is larger than this, you should probably use the [dataset uploads](/feature-overview/dataset-uploads) feature.
+</Callout>
 
 ## `file.csv` as DataFrame
 
+This is the block used in the "Uploaded datasets" section, and can be used if you want to include a block accessing a dataset that you haven't uploaded yet (you'll still need to upload it before running the program, though).
+
 ## Transpose DataFrame
+
+Transposing a DataFrame swaps the columns and rows of a dataset, so this:
+
+| Column 1 | Column 2 | Column 3 ||
+|----------|:----------|:----------:|:|
+| 1 | 2 | 3 | 4 |
+| 5 | 6 | 8 | 3 |
+| 9 | 5 | 0 | 2 |
+
+Becomes this:
+
+| Column 1 | Column 2 | Column 3 |
+|----------|:----------|:----------:|
+| 1 | 5 | 9 |
+| 2 | 6 | 5 |
+| 3 | 8 | 0 |
+| 4 | 3 | 2 |
 
 ## Select columns from DataFrame
 
-## Get column from DataFrame as array
+This returns a 2D array (a matrix) with the columns specified. Each list in the matrix represents a column; if you want the result to be a list of rows, then transpose the DataFrame first.
