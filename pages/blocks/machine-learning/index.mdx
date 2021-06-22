@@ -1,3 +1,21 @@
 # Overview
 
 Machine learning block documentation is currently a work in progress.
+
+Kobra supports a variety of machine learning models. We've designed the ML blocks so that they all have similar interfaces; once you know how to use one model, you'll know how to use all of them. There are three main steps to using a model in your app; creating the model, fitting it (also called training), and predicting with it. In Kobra, each of these steps corresponds to one block.
+
+![Screenshot of blocks in linear regression category](/linr-blocks.png)
+
+## Create model
+
+Creating the model initializes it and sets the dataset that it will use (in the training data x and y parameters). The type of data that a model accepts varies; see the model's documentation page for more information. However, in general, the model's goal is to be able to predict the corresponding y value given an x value, so your training data x should be what type of input you want to provide to the model, and the training data y should be what you expect to get out of the model.
+
+When creating a model, you'll want to store it in a variable so you can do other things with it. We recommend calling the variable "model" as that's what the default is for the next two blocks, but you can call it anything as long as you make sure to select the right variable in them.
+
+## Fit model
+
+This block will fit (also called train) your model. This is the process of letting the model learn from the data you provided. Depending on the size of your dataset this could take a while but usually it is fast. Depending on the model there may be additional parameters to provide to this block; see the model's documentation page for information on these.
+
+## Predict with model
+
+Once your model is trained, you can start using it to make predictions. This block takes inputs of the variable holding the model and an x value (input) to try to predict the y value (output) value for. The block outputs the model's prediction.
