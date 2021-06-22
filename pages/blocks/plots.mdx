@@ -2,10 +2,38 @@
 
 The plots category lets you control the "Data Visualization" tab in the editor, letting you graph data in various types of plots.
 
+![Screenshot of blocks in Plots category](/plots-blocks.png)
+
+![Screenshot of line plot made using Plots blocks](/plots-example.png)
+
 ## Set plot title
+
+This sets the title of a plot. This is different from the series title, which is used to differentiate multiple series.
+
+![Screenshot of a plot title](/plots-title-example.png)
 
 ## Add series to plot
 
+This is used to add data to the plot. The title is displayed on the right side of the plot when there are multiple series, allowing you to differentiate them. Both data parameters should be lists.
+
+### Types of plots
+
+Here are the types of plots we currently support:
+
+- [Scatter](https://plotly.com/javascript/line-and-scatter/)
+- [Bar](https://plotly.com/javascript/bar-charts/)
+- [Box](https://plotly.com/javascript/box-plots/)
+- [Pie](https://plotly.com/javascript/pie-charts/)
+- [Histogram](https://plotly.com/javascript/histograms/)
+- [Histogram contour](https://plotly.com/javascript/2d-histogram-contour/)
+- [Violin](https://plotly.com/javascript/violin/)
+
+If you'd like us to add support for a new type of plot, feel free to [file a GitHub issue](https://github.com/kobra-dev/Kobra/issues) suggesting it.
+
 ## Remove series with title
 
+This removes a series by its title.
+
 ## Reset plot
+
+This resets the plot (removes all series and clears the title).

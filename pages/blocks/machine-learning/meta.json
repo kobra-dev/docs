@@ -1,3 +1,8 @@
 {
-    
+    "index":  "Overview",
+    "linr": "Linear regression",
+    "logr": "Logistic regression",
+    "knn": "K-nearest neighbors",
+    "rf": "Random forest",
+    "sv": "Support vector"
 }
