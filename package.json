@@ -9,7 +9,6 @@
     "build": "next build"
   },
   "author": "The Kobra Authors",
-  "license": "MIT",
   "dependencies": {
     "next": "^11.0.0",
     "nextra": "^0.4.1",
