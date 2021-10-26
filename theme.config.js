@@ -10,7 +10,7 @@ export default {
         src="https://raw.githubusercontent.com/kobra-dev/branding/main/kobra-logo-withoutline.png"
         alt="Kobra logo"
         style={{
-          maxHeight: '2.5rem',
+          maxHeight: '2.3rem',
           marginRight: '1rem',
           padding: '4px',
           borderRadius: '3px',
