@@ -7,12 +7,11 @@ export default {
   logo: (
     <>
       <img
-        src="https://images.ctfassets.net/toxox86i0ilk/2vq3YtIZopT8UPfaEvzp9g/1bba1b1929fca469aaf554b6a3216310/GreenIconBlackText.svg"
+        src="https://raw.githubusercontent.com/kobra-dev/branding/main/kobra-logo-withoutline.png"
         alt="Kobra logo"
         style={{
-          maxHeight: '2rem',
+          maxHeight: '2.5rem',
           marginRight: '1rem',
-          backgroundColor: 'white',
           padding: '4px',
           borderRadius: '3px',
         }}
@@ -43,10 +42,7 @@ export default {
       />
       <meta name="twitter:site:domain" content="https://kobra.dev/" />
       <meta name="twitter:url" content="https://kobra.dev/" />
-      <meta
-        name="og:title"
-        content="Kobra Docs"
-      />
+      <meta name="og:title" content="Kobra Docs" />
       <meta
         name="og:image"
         content="https://raw.githubusercontent.com/kobra-dev/branding/main/embed_image.png"
